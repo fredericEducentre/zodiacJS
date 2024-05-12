@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Custom CSS for 3D effects */
+.container-3d {
+  perspective: 1000px;
+}
+.card-3d {
+  position: relative;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.card-3d:hover {
+  transform: rotateY(20deg);
+}
+
+img{
+  width: 100%;
+}
