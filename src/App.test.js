@@ -1,8 +1,7 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { getChineseZodiac } from './component/zodiac';
 
 test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  expect(getChineseZodiac(1900)).toBe('Rat');
+  expect(getChineseZodiac(1990)).toBe('Horse');
 });
+
