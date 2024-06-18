@@ -22,7 +22,7 @@ function App() {
       "https://cdn.leonardo.ai/users/2cbfd30f-6e5b-419d-94c0-00853dd21810/generations/05d49202-7a4b-454e-bb91-7b9c2a3fbccc/Default_monkey_0.jpg",
       "https://cdn.leonardo.ai/users/2cbfd30f-6e5b-419d-94c0-00853dd21810/generations/c7b5a00e-3684-4d54-9a3b-f4354fd4600c/Default_Rooster_0.jpg",
       "https://cdn.leonardo.ai/users/2cbfd30f-6e5b-419d-94c0-00853dd21810/generations/4aa80b1b-810e-45d0-a9d3-784dc5728ad3/Default_Dog_0.jpg?w=512",
-      "https://cdn.leonardo.ai/users/2cbfd30f-6e5b-419d-94c0-00853dd21810/generations/58ee76ba-9458-4500-ae3a-55f0c8c5465a/Default_Pig_0.jpg"];
+      "https://cdn.leonardo.ai/users/d975a75f-cc78-424d-8a56-933ede7d68a7/generations/9c0805d4-2796-4a0b-9ea6-4c202f4f3567/Default_super_pig_chinese_zodiac_3.jpg"];
     const startYear = 1900; // Start year of the Chinese zodiac cycle
     setZodiac(zodiacSigns[(year - startYear) % 12])
     setZodiacImage(zodiacSignsImage[(year - startYear) % 12])
